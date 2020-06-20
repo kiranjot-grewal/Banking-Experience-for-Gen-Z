@@ -1,0 +1,12 @@
+CREATE DATABASE test;
+
+use test;
+
+CREATE TABLE item (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	item VARCHAR(30) NOT NULL,
+	createdate VARCHAR(30) NOT NULL,
+	expirydate VARCHAR(50) NOT NULL,
+	location VARCHAR(50),
+	date TIMESTAMP
+);
